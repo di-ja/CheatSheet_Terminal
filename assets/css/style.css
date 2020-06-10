@@ -45,13 +45,13 @@ a:hover {
 h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5em;
-    padding: 1rem 1rem 0;
+    padding: 1rem 5% 0;
     color: #333740;
 }
 h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.6em;
-    padding: 0 1rem 1rem;
+    padding: 0 5% 1rem;
     color: #333740;
 }
 span {
@@ -61,8 +61,11 @@ span {
 }
 section {
     padding: 1rem 5% 0;
-    border-bottom: 1px dashed #3365A6;
     background: #A0B9D9;
+}
+section div {
+    margin: 0;
+    border-bottom: 1px dashed #3365A6;
 }
 img {
     width: 50%;
