@@ -59,11 +59,11 @@ span {
     font-weight: 400;
     padding-left: 4%;
 }
-section {
+article {
     padding: 1rem 5% 0;
     background: #A0B9D9;
 }
-section div {
+article div {
     margin: 0;
     border-bottom: 1px dashed #3365A6;
 }
@@ -72,9 +72,13 @@ img {
     padding-bottom: 0;
     padding-left: 25%;
 }
-section a {
+article a {
     background: #3365A6;
     display: block;
     padding: 8px 1rem;
     color: #c4c4c4;
 }
+.zweiSpalten {
+    display: flex;
+    justify-content: space-between;
+  }
